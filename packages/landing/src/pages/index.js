@@ -2,55 +2,67 @@ import React, { Fragment } from 'react';
 import Head from 'next/head';
 import Sticky from 'react-stickynode';
 import { ThemeProvider } from 'styled-components';
-import { theme } from 'common/theme/agencyFormal';
+import { agencyTheme } from 'common/theme/agency';
 import ResetCSS from 'common/assets/css/style';
-import { GlobalStyle, ContentWrapper } from 'containers/AgencyFormal/agencyFormal.style';
+import { GlobalStyle, AgencyWrapper } from 'containers/Agency/agency.style';
+import Navbar from 'containers/Agency/Navbar';
+import BannerSection from 'containers/Agency/BannerSection';
+import FeatureSection from 'containers/Agency/FeatureSection';
+import AboutUsSection from 'containers/Agency/AboutUsSection';
+import WorkHistory from 'containers/Agency/WorkHistory';
+import BlogSection from 'containers/Agency/BlogSection';
+import TestimonialSection from 'containers/Agency/TestimonialSection';
+import TeamSection from 'containers/Agency/TeamSection';
+import VideoSection from 'containers/Agency/VideoSection';
+import NewsletterSection from 'containers/Agency/NewsletterSection';
+import QualitySection from 'containers/Agency/QualitySection';
+import Footer from 'containers/Agency/Footer';
 import { DrawerProvider } from 'common/contexts/DrawerContext';
-import Navbar from 'containers/AgencyFormal/Navbar';
-import Banner from 'containers/AgencyFormal/Banner';
-import Services from 'containers/AgencyFormal/Services';
-import PremiumFeature from 'containers/AgencyFormal/PremiumFeature';
-import UltimateFeature from 'containers/AgencyFormal/UltimateFeature';
-import Testimonial from 'containers/AgencyFormal/Testimonial';
-import Pricing from 'containers/AgencyFormal/Pricing';
-import News from 'containers/AgencyFormal/News';
-import Footer from 'containers/AgencyFormal/Footer';
+import FaqSection from 'containers/Agency/FaqSection';
 
-const AgencyFormal = () => {
-  return (
-    <ThemeProvider theme={theme}>
-      <Fragment>
-        <Head>
-          <title>Agency Formal | A react next landing page</title>
-          <meta name="theme-color" content="#4200FF" />
-          <meta name="Description" content="React next landing page" />
+const Main = () => {
+	return (
+		<ThemeProvider theme={agencyTheme}>
+			<Fragment>
+				{/* Start agency head section */}
+				<Head>
+					<title>Agency | A react next landing page</title>
+					<meta name="theme-color" content="#10ac84" />
+					<meta name="Description" content="React next landing page" />
+					{/* Load google fonts */}
+					<link
+						href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
+						rel="stylesheet"
+					/>
+				</Head>
+				<ResetCSS />
+				<GlobalStyle />
+				{/* End of agency head section */}
+				{/* Start agency wrapper section */}
 
-          {/* Load google fonts */}
-          <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet" />
+				<AgencyWrapper>
+					<Sticky top={0} innerZ={9999} activeClass="sticky-nav-active">
+						<DrawerProvider>
+							<Navbar />
+						</DrawerProvider>
+					</Sticky>
+					<BannerSection />
+					<FeatureSection />
+					<AboutUsSection />
+					<WorkHistory />
+					<BlogSection />
+					<QualitySection />
+					<VideoSection />
+					<TestimonialSection />
+					<TeamSection />
+					<FaqSection />
+					<NewsletterSection />
+					<Footer />
+				</AgencyWrapper>
 
-          <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
-          <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
-        </Head>
-        <ResetCSS />
-        <GlobalStyle />
-
-        <ContentWrapper>
-          <Sticky top={0} innerZ={9999} activeClass="sticky-nav-active">
-            <DrawerProvider>
-              <Navbar />
-            </DrawerProvider>
-          </Sticky>
-          <Banner />
-          <Services />
-          <PremiumFeature />
-          <UltimateFeature />
-          <Testimonial />
-          <Pricing />
-          <News />
-          <Footer />
-        </ContentWrapper>
-      </Fragment>
-    </ThemeProvider>
-  );
+				{/* End of agency wrapper section */}
+			</Fragment>
+		</ThemeProvider>
+	);
 };
-export default AgencyFormal;
+export default Main;

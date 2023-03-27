@@ -25,6 +25,7 @@
     "next-fonts": "1.5.1",
     "next-optimized-images": "^2.6.2",
     "polished": "^4.2.2",
+    "prettier": "^2.1.2",
     "prop-types": "^15.8.1",
     "rc-collapse": "^3.4.2",
     "rc-drawer": "^6.0.0",
@@ -59,6 +60,7 @@
     "react-tabs": "^5.1.0",
     "react-tsparticles": "^2.5.1",
     "react-waypoint": "10.3.0",
+    "sharp": "^0.31.3",
     "styled-components": "^5.3.6",
     "styled-system": "5.1.5",
     "swiper": "^8.4.4"
