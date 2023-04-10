@@ -1,7 +1,7 @@
 const colors = {
     transparent: 'transparent',
-    primary: '#01BC9A',
-    primaryHover: '#00856d',
+    primary: '#FABA60',
+    primaryHover: '#FABA60',
     secondary: '#25252E',
     secondaryHover: '#1C1C33',
     black: '#000000',

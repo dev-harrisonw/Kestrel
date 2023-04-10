@@ -9,8 +9,8 @@ import Navbar from 'containers/Agency/Navbar';
 import BannerSection from 'containers/Agency/BannerSection';
 import FeatureSection from 'containers/Agency/FeatureSection';
 import AboutUsSection from 'containers/Agency/AboutUsSection';
-import WorkHistory from 'containers/Agency/WorkHistory';
-import BlogSection from 'containers/Agency/BlogSection';
+// import WorkHistory from 'containers/Agency/WorkHistory';
+// import BlogSection from 'containers/Agency/BlogSection';
 import TestimonialSection from 'containers/Agency/TestimonialSection';
 import TeamSection from 'containers/Agency/TeamSection';
 import VideoSection from 'containers/Agency/VideoSection';
@@ -26,9 +26,9 @@ const Main = () => {
 			<Fragment>
 				{/* Start agency head section */}
 				<Head>
-					<title>Agency | A react next landing page</title>
-					<meta name="theme-color" content="#10ac84" />
-					<meta name="Description" content="React next landing page" />
+				<title>Kestrel IT | Solutions & Support</title>
+          		<meta name="Description" content="Kestrel IT Solutions & Support" />
+          		<meta name="theme-color" content="#FABA60" />
 					{/* Load google fonts */}
 					<link
 						href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
@@ -49,14 +49,9 @@ const Main = () => {
 					<BannerSection />
 					<FeatureSection />
 					<AboutUsSection />
-					<WorkHistory />
-					<BlogSection />
-					<QualitySection />
-					<VideoSection />
 					<TestimonialSection />
-					<TeamSection />
+					<VideoSection />
 					<FaqSection />
-					<NewsletterSection />
 					<Footer />
 				</AgencyWrapper>
 

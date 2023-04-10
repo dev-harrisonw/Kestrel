@@ -30,7 +30,7 @@ const Navbar = ({ navbarStyle, logoStyle, row, menuWrapper }) => {
           <Logo
             href="#"
             logoSrc={LogoImage}
-            title="Agency"
+            title="Kestrel IT"
             logoStyle={logoStyle}
           />
           <Box {...menuWrapper}>

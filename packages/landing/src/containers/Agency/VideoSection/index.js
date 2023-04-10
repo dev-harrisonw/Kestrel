@@ -16,7 +16,7 @@ const IntroVideo = () => (
     title="ReactivePro"
     width="560"
     height="315"
-    src="https://www.youtube.com/embed/9-8KYHo_wtc?controls=0&showinfo=0"
+    src="https://www.youtube.com/embed/ScMzIvxBSi4"
     frameBorder="0"
     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
     allowFullScreen
@@ -105,7 +105,7 @@ VideoSection.defaultProps = {
     fontSize: '14px',
     letterSpacing: '0.15em',
     fontWeight: '700',
-    color: '#10ac84',
+    color: '#FABA60',
     mb: '10px',
   },
   // section title default style

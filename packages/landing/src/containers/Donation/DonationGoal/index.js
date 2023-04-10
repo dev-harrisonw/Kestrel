@@ -31,7 +31,7 @@ const DonationGoal = () => {
           <TextWrapper>
             <Heading content="Be helping hand to recover COVID-19 patients" />
             <p className="desc">
-              We are organizing a program on January 20, 2019 to help the homeless people. Our aim is to provide them a specific place to
+              We are organizing a program on January 20, 2023 to help the homeless people. Our aim is to provide them a specific place to
               live.
               <Link href="#learn-more">
                 <a>

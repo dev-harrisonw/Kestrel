@@ -49,7 +49,7 @@ const FundraiserSection = () => {
             </TextAndLink>
             <Heading as="h3" content="Helping Hand For The Homeless" />
             <Text
-              content="We are organizing a program on January 20, 2019 to help the homeless people. Our aim is to provide them a 
+              content="We are organizing a program on January 20, 2023 to help the homeless people. Our aim is to provide them a 
             specific place to live.
             "
             />

@@ -520,7 +520,7 @@ export const footerTop = {
     address: `Mohakhali DOHS, Amsterdam, Netherlands`,
     phone: `+31 62 19 22 705`,
     openingTime: `7 Days - 8am - 10pm`,
-    email: `info@redqteam.com`,
+    email: `info@kestrelit.co.uk`,
   },
 };
 

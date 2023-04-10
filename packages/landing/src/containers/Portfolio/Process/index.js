@@ -93,7 +93,7 @@ const ProcessSection = ({
               <Text content="Start Your Project ?" {...buttonLabelStyle} />
               <ButtonWrapper>
                 <Button
-                  title="hello@redq.io"
+                  title="hello@kestrelit.co.uk"
                   className="portfolio_button"
                   {...buttonStyle}
                 />

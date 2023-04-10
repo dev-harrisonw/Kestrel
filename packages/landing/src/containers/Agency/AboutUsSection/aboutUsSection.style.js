@@ -42,7 +42,7 @@ const AboutUsSectionWrapper = styled.section`
     align-items: center;
     margin-bottom: 14px;
     .icon__wrapper {
-      color: ${themeGet('colors.primary', '#10ac84')};
+      color: ${themeGet('colors.primary', '#FABA60')};
       margin-right: 10px;
     }
     .content__wrapper {

@@ -50,13 +50,13 @@ const AboutUsSection = ({
             <FeatureBlock
               title={
                 <Heading
-                  content="Great Responsive & Strong Competitive People"
+                  content="Exceptional Support for your Technology Needs"
                   {...title}
                 />
               }
               description={
                 <Text
-                  content="Some hardworking People are Working Day and Night to provide you highly scalable product . "
+                  content="Our expert team works hard to provide scalable and reliable technology solutions to help your business thrive. "
                   {...description}
                 />
               }

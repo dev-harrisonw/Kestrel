@@ -422,7 +422,7 @@ export const testimonial = {
       avatar:
         'https://pbs.twimg.com/profile_images/974736784906248192/gPZwCbdS.jpg',
       name: 'Jon Doe',
-      designation: 'CEO of RedQ Inc.',
+      designation: 'CEO of Kestrel IT ',
       review: 4,
     },
     {
@@ -432,7 +432,7 @@ export const testimonial = {
         'Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore features Lorem ipsum dolor sit amet consectetur adipisicing.',
       avatar: 'https://randomuser.me/api/portraits/women/44.jpg',
       name: 'Jeny Doe',
-      designation: 'Co Founder of RedQ Inc.',
+      designation: 'Co Founder of Kestrel IT ',
       review: 5,
     },
     {
@@ -442,7 +442,7 @@ export const testimonial = {
         'Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore features Lorem ipsum dolor sit amet consectetur adipisicing.',
       avatar: 'https://randomuser.me/api/portraits/men/44.jpg',
       name: 'Jon Doe',
-      designation: 'Co Founder of RedQ Inc.',
+      designation: 'Co Founder of Kestrel IT ',
       review: 5,
     },
   ],

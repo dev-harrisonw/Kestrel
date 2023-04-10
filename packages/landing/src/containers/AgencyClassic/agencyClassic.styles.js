@@ -386,7 +386,7 @@ export const ContentWrapper = styled.div`
       > span {
         background-color: ${themeGet('colors.white', '#ffffff')};
         @media only screen and (max-width: 480px) {
-          background-color: ${themeGet('colors.primary', '#10ac84')};
+          background-color: ${themeGet('colors.primary', '#FABA60')};
         }
       }
     }

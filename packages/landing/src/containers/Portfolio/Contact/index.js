@@ -44,7 +44,7 @@ const ContactSection = ({
         <Box {...buttonWrapper}>
           <ButtonWrapper>
             <Button
-              title="hello@redq.io"
+              title="hello@kestrelit.co.uk"
               className="portfolio_button"
               {...buttonStyle}
             />

@@ -93,7 +93,7 @@ const Navbar = ({ navbarStyle, logoStyle, buttonStyle }) => {
         <Logo
           href="#"
           logoSrc={LogoImage}
-          title="Agency"
+          title="Kestrel IT"
           logoStyle={logoStyle}
         />
         <div style={{ display: 'flex', alignItems: 'center' }}>

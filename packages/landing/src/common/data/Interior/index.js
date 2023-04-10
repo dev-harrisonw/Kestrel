@@ -445,7 +445,7 @@ export const newsletterData = {
 
 export const footerData = {
   logo: logo,
-  mail: 'hello@redq.io',
+  mail: 'hello@kestrelit.co.uk',
   phone: '123-456-7890',
   socialLinks: [
     {

@@ -412,7 +412,7 @@ export const posts = [
   },
   {
     id: 2,
-    title: 'BRITs Week 2019 together with O2 is here',
+    title: 'BRITs Week 2023 together with O2 is here',
     excerpt:
       '72 million children around the world are not enrolled in school. Concern Worldwide focuses on providing basic education to those…',
     thumbUrl: thumb2,

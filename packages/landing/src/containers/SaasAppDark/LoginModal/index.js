@@ -179,7 +179,7 @@ LoginModal.defaultProps = {
     minWidth: '156px',
     fontSize: '14px',
     fontWeight: '500',
-    color: '#10ac84',
+    color: '#FABA60',
   },
   // Google button style
   googleButtonStyle: {

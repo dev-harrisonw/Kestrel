@@ -26,9 +26,9 @@ const Agency = () => {
       <Fragment>
         {/* Start agency head section */}
         <Head>
-          <title>Agency | A react next landing page</title>
-          <meta name="Description" content="React next landing page" />
-          <meta name="theme-color" content="#10ac84" />
+          <title>Kestrel IT | Solutions & Support</title>
+          <meta name="Description" content="Kestrel IT Solutions & Support" />
+          <meta name="theme-color" content="#FABA60" />
 
           {/* Load google fonts */}
           <link

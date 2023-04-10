@@ -35,7 +35,7 @@ const AgencyClassic = () => {
         <Head>
           <title>Agency | A react next landing page</title>
           <meta name="Description" content="React next landing page" />
-          <meta name="theme-color" content="#10ac84" />
+          <meta name="theme-color" content="#FABA60" />
 
           {/* Load google fonts */}
           <link

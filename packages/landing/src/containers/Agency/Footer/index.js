@@ -29,10 +29,10 @@ const Footer = ({
             <Logo
               href="#"
               logoSrc={LogoImage}
-              title="Agency"
+              title="Kestrel IT"
               logoStyle={logoStyle}
             />
-            <Text content="hello@redq.io" {...textStyle} />
+            <Text content="hello@kestrelit.co.uk" {...textStyle} />
             <Text content="+479-443-9334" {...textStyle} />
           </Box>
           {/* End of footer logo column */}

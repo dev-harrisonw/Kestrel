@@ -62,12 +62,12 @@ const GlobalStyle = createGlobalStyle`
             font-weight: 400;
             transition: all 0.3s ease;
             &:hover {
-              color: ${themeGet('colors.primary', '#10ac84')};
+              color: ${themeGet('colors.primary', '#FABA60')};
             }
           }
           &.is-current {
             a {
-              color: ${themeGet('colors.primary', '#10ac84')};
+              color: ${themeGet('colors.primary', '#FABA60')};
               position: relative;
               &:before {
                 content: '';
@@ -75,7 +75,7 @@ const GlobalStyle = createGlobalStyle`
                 width: 8px;
                 height: 8px;
                 border-radius: 50%;
-                background-color: ${themeGet('colors.primary', '#10ac84')};
+                background-color: ${themeGet('colors.primary', '#FABA60')};
                 position: absolute;
                 top: calc(50% - 8px / 2);
                 left: -20px;
@@ -99,7 +99,7 @@ const GlobalStyle = createGlobalStyle`
   button.modalCloseBtn {
     color: ${themeGet('colors.white', '#ffffff')} !important;
     &.alt {
-      background-color: ${themeGet('colors.primary', '#10ac84')} !important;
+      background-color: ${themeGet('colors.primary', '#FABA60')} !important;
       box-shadow: 0 8px 38px rgba(16, 172, 132, 0.5) !important;
     }
   }
@@ -182,7 +182,7 @@ const AgencyWrapper = styled.div`
       color: ${themeGet('colors.white', '#ffffff')};
       font-size: 18px;
       @media only screen and (max-width: 480px) {
-        color: ${themeGet('colors.primary', '#10ac84')};
+        color: ${themeGet('colors.primary', '#FABA60')};
       }
     }
     .hamburgMenu__bar {
@@ -190,7 +190,7 @@ const AgencyWrapper = styled.div`
       > span {
         background-color: ${themeGet('colors.white', '#ffffff')};
         @media only screen and (max-width: 480px) {
-          background-color: ${themeGet('colors.primary', '#10ac84')};
+          background-color: ${themeGet('colors.primary', '#FABA60')};
         }
       }
     }
@@ -201,10 +201,10 @@ const AgencyWrapper = styled.div`
       box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
       padding: 15px auto;
       .reusecore__button {
-        color: ${themeGet('colors.primary', '#10ac84')};
+        color: ${themeGet('colors.primary', '#FABA60')};
       }
       .hamburgMenu__bar > span {
-        background-color: ${themeGet('colors.primary', '#10ac84')};
+        background-color: ${themeGet('colors.primary', '#FABA60')};
       }
     }
   }

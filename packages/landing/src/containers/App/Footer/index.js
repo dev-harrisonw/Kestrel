@@ -56,7 +56,7 @@ const Footer = ({
               <Text content="Terms" {...textStyle} />
             </Box>
             <Box {...copyright} className="copyrightText">
-              <Text content="copyright 2019 RedQ, Inc." {...textStyle} />
+              <Text content="copyright 2023 RedQ, Inc." {...textStyle} />
             </Box>
           </Box>
           {/* End of footer List column */}

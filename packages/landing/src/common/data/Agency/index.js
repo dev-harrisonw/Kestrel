@@ -10,34 +10,14 @@ import Menny from '../../assets/image/agency/client/menny.png';
 const data = {
   menuItems: [
     {
-      label: 'Feature',
+      label: 'Services',
       path: '#featureSection',
       offset: '80',
-    },
-    {
-      label: 'Work History',
-      path: '#workHistorySection',
-      offset: '67',
-    },
-    {
-      label: 'Portfolio',
-      path: '#blogSection',
-      offset: '67',
-    },
-    {
-      label: 'Quality feature',
-      path: '#qualitySection',
-      offset: '67',
     },
     {
       label: 'Testimonial',
       path: '#testimonialSection',
       offset: '100',
-    },
-    {
-      label: 'Team Member',
-      path: '#teamSection',
-      offset: '67',
     },
     {
       label: 'FAQ',
@@ -48,67 +28,67 @@ const data = {
   aboutus: [
     {
       id: 1,
-      title: 'Amazing communication experience.',
+      title: 'Proven success supporting SMEs',
       icon: 'flaticon-next',
     },
     {
       id: 2,
-      title: 'Best designing experience with trending tools and sizes.',
+      title: 'Personalized and responsive support',
       icon: 'flaticon-next',
     },
     {
       id: 3,
-      title: 'Training and communication method remotely.',
+      title: 'Experienced and professional IT experts',
       icon: 'flaticon-next',
     },
     {
       id: 4,
-      title: '24/7 Hour onine supports.',
+      title: 'Proactive maintenance/monitoring for smooth operations',
       icon: 'flaticon-next',
     },
   ],
   features: [
     {
       id: 1,
-      icon: 'flaticon-flask',
-      title: 'Search Optimization',
+      icon: 'flaticon-atom',
+      title: 'Network Management',
       description:
-        'By using Search Engine Optimization, You will get more Clients',
+        'Keep your computers connected and secure with our reliable and efficient network management services.',
     },
     {
       id: 2,
-      icon: 'flaticon-pencil-case',
-      title: 'Ui/UX Design',
+      icon: 'flaticon-atom',
+      title: 'IT Consulting',
       description:
-        'We provide the best UI/UX Design by following the latest trends of the market .',
+        'Let us help you make informed decisions about your technology investments to achieve your business goals.',
     },
     {
       id: 3,
-      icon: 'flaticon-ruler',
-      title: 'Wireframing Task',
+      icon: 'flaticon-atom',
+      title: 'Backup & Recovery',
       description:
-        'We respect our customer opinions and deals with them with perfect wireframing ',
+        'Don\t let a data loss disaster ruin your day! We can help you protect your data with reliable backup solutions.',
     },
     {
       id: 4,
-      icon: 'flaticon-startup',
-      title: 'Business Solutions',
+      icon: 'flaticon-atom',
+      title: 'Cybersecurity',
       description:
-        'We are commited to provide proper business solutions with reasonable pricing',
+        'Protect your business from online threats with our cybersecurity services, keeping your data and systems safe.',
     },
     {
       id: 5,
-      icon: 'flaticon-briefing',
-      title: 'Business Analysis',
+      icon: 'flaticon-atom',
+      title: 'Cloud Solutions',
       description:
-        'A day to day report about your ongoing business for proper understanding',
+        'Access your data and applications from anywhere with our cloud solutions, providing secure and flexible solutions to suit your business.',
     },
     {
       id: 6,
-      icon: 'flaticon-creative',
-      title: 'Content Management',
+      icon: 'flaticon-atom',
+      title: 'Hardware/Software',
       description:
-        'Proper Content Management is important to find out the real clients for your agencies',
+        'Get the hardware and software you need to get the job done, installed and supported by our expert team.',
     },
   ],
   qualityFeature: [
@@ -253,34 +233,34 @@ const data = {
   testimonial: [
     {
       id: 1,
-      name: 'Jon Doe',
-      designation: 'CEO of Denish Co.',
+      name: 'John Smith',
+      designation: 'CEO of ABC Company',
       comment:
-        'Best working experience  with this amazing team & in future, we want to work together',
+        'Kestrel IT has been instrumental in helping us navigate the challenges of remote work.',
       avatar_url: Denny,
     },
     {
       id: 2,
-      name: 'Roman Ul Oman',
-      designation: 'Co-founder of QatarDiaries',
+      name: 'Sarah Lee',
+      designation: 'COO of XYZ Corp',
       comment:
-        'Impressed with master class support of the team and really look forward for the future.',
+        'Kestrel IT is knowledgeable, responsive, and dedicated to our success.',
       avatar_url: Menny,
     },
     {
       id: 3,
-      name: 'Jone Doe',
-      designation: 'Director of Beauty-queen',
+      name: 'Michael Johnson',
+      designation: 'Director of Operations at LMN Corp',
       comment:
-        'I have bought more than 10 themes on ThemeForest, and this is the first one I review. Wow! Amazing React Theme',
+        'Their personalized approach and attention to detail is unmatched.',
       avatar_url: Denny,
     },
     {
       id: 4,
-      name: 'Roman Ul Oman',
-      designation: 'Co-founder of QatarDiaries',
+      name: 'Lisa Chen',
+      designation: 'Owner of LMNOP LLC',
       comment:
-        'Impressed with master class support of the team and really look forward for the future.',
+        'Kestrel IT has been a lifesaver. They provide expert support and guidance.',
       avatar_url: Menny,
     },
   ],
@@ -288,63 +268,32 @@ const data = {
     {
       id: 1,
       expend: true,
-      title: 'How to contact with Customer Service?',
+      title: 'What type of businesses do you typically work with?',
       description:
-        'Our Customer Experience Team is available 7 days a week and we offer 2 ways to get in contact.Email and Chat . We try to reply quickly, so you need not to wait too long for a response!. ',
+        'We work with small and medium-sized businesses across various industries, including healthcare, finance, legal, and more.',
     },
     {
       id: 2,
-      title: 'App installation failed, how to update system information?',
+      title: 'What kind of technology solutions do you offer?',
       description:
-        'Please read the documentation carefully . We also have some online  video tutorials regarding this issue . If the problem remains, Please Open a ticket in the support forum . ',
+        'We offer a range of technology solutions, including server installation, cloud solutions, cybersecurity, disaster recovery, and more. We also provide customized solutions tailored to your unique needs and goals.',
     },
     {
       id: 3,
-      title: 'Website reponse taking time, how to improve?',
+      title: 'How do you ensure the security of our data and systems?',
       description:
-        'At first, Please check your internet connection . We also have some online  video tutorials regarding this issue . If the problem remains, Please Open a ticket in the support forum .',
+        'We prioritize the security of your data and systems, and utilize various measures, such as firewalls, antivirus software, and data backup solutions to ensure the integrity and confidentiality of your information.',
     },
     {
       id: 4,
-      title: 'New update fixed all bug and issues?',
+      title: 'How do you provide support and handle technical issues or emergencies?',
       description:
-        'We are giving the update of this theme continuously . You will receive an email Notification when we push an update. Always try to be updated with us .',
+        'We provide personalized and responsive support to handle technical issues and emergencies. Our experienced and professional IT experts are available to assist you via phone, email, or remote access, and are proactive in monitoring and maintaining your systems to minimize downtime and disruption',
     },
   ],
   menuWidget: [
     {
       id: 1,
-      title: 'About Us',
-      menuItems: [
-        {
-          id: 1,
-          url: '#1',
-          text: 'Support Center',
-        },
-        {
-          id: 2,
-          url: '#2',
-          text: 'Customer Support',
-        },
-        {
-          id: 3,
-          url: '#3',
-          text: 'About Us',
-        },
-        {
-          id: 4,
-          url: '#4',
-          text: 'Copyright',
-        },
-        {
-          id: 5,
-          url: '#5',
-          text: 'Popular Campaign',
-        },
-      ],
-    },
-    {
-      id: 2,
       title: 'Our Information',
       menuItems: [
         {
@@ -371,63 +320,6 @@ const data = {
           id: 5,
           url: '#5',
           text: 'Store Hours',
-        },
-      ],
-    },
-    {
-      id: 3,
-      title: 'My Account',
-      menuItems: [
-        {
-          id: 1,
-          url: '#1',
-          text: 'Press inquiries',
-        },
-        {
-          id: 2,
-          url: '#2',
-          text: 'Social media directories',
-        },
-        {
-          id: 3,
-          url: '#3',
-          text: 'Images & B-roll',
-        },
-        {
-          id: 4,
-          url: '#4',
-          text: 'Permissions',
-        },
-        {
-          id: 5,
-          url: '#5',
-          text: 'Speaker requests',
-        },
-      ],
-    },
-    {
-      id: 4,
-      title: 'Policy',
-      menuItems: [
-        {
-          id: 1,
-          url: '#1',
-          text: 'Application security',
-        },
-        {
-          id: 2,
-          url: '#2',
-          text: 'Software principles',
-        },
-        {
-          id: 3,
-          url: '#3',
-          text: 'Unwanted software policy',
-        },
-        {
-          id: 4,
-          url: '#4',
-          text: 'Responsible supply chain',
         },
       ],
     },

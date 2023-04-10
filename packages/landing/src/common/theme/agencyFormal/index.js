@@ -71,7 +71,7 @@ export const theme = {
     },
     primaryWithBg: {
       color: colors.white,
-      backgroundColor: colors.primary,
+      Color: colors.primary,
       borderColor: colors.primary,
       '&:hover': {
         backgroundColor: colors.primaryHover,

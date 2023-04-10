@@ -32,7 +32,7 @@ const LoginModalWrapper = styled.div`
   .reusecore__button {
     background-color: transparent;
     &.default {
-      background-color: ${themeGet('colors.primary', '#10ac84')};
+      background-color: ${themeGet('colors.primary', '#FABA60')};
       transition: all 0.3s ease;
       &:hover {
         box-shadow: 0px 9px 20px -5px rgba(16, 172, 132, 0.57);
@@ -136,11 +136,11 @@ const LoginModalWrapper = styled.div`
       &.is-material {
         &.is-focus {
           label {
-            color: ${themeGet('colors.primary', '#10ac84')};
+            color: ${themeGet('colors.primary', '#FABA60')};
             top: -12px;
           }
           .highlight {
-            background-color: ${themeGet('colors.primary', '#10ac84')};
+            background-color: ${themeGet('colors.primary', '#FABA60')};
           }
         }
       }

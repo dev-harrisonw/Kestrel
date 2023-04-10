@@ -33,14 +33,14 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
           <Logo
             href="#"
             logoSrc={logoWhite}
-            title="Agency"
+            title="Kestrel IT"
             logoStyle={logoStyle}
             className="main-logo"
           />
           <Logo
             href="#"
             logoSrc={logoDark}
-            title="Agency"
+            title="Kestrel IT"
             logoStyle={logoStyle}
             className="stricky-logo"
           />

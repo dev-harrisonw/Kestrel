@@ -1,9 +1,9 @@
 {
   "name": "superprops",
-  "description": "Modern Multipurpose Landing Pages Template Using React, Next, Styled Components and so on. ",
+  "description": "Kestrel IT Services ",
   "version": "13.0.1",
   "private": true,
-  "author": "RedQ, Inc",
+  "author": "Harrison Warburton",
   "devDependencies": {
     "cross-env": "^7.0.2",
     "husky": "^7.0.2",

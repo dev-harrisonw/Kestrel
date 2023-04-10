@@ -32,14 +32,14 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
           <Logo
             href="#"
             logoSrc={LogoImage}
-            title="Agency"
+            title="Kestrel IT"
             logoStyle={logoStyle}
             className="main-logo"
           />
           <Logo
             href="#"
             logoSrc={LogoImageStick}
-            title="Agency"
+            title="Kestrel IT"
             logoStyle={logoStyle}
             className="sticky-logo"
           />

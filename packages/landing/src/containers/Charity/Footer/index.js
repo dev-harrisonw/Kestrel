@@ -27,12 +27,12 @@ const Footer = ({ row, col, colOne, colTwo }) => {
               className="logo"
               href="/charity"
               logoSrc={LogoImage}
-              title="Agency"
+              title="Kestrel IT"
             />
             <Text className="text" content="EU: +077 1456 5924" />
             <Text className="text" content="US: +361-541-4241" />
             <Link href="#1">
-              <a className="mail">hello@redq.io</a>
+              <a className="mail">hello@kestrelit.co.uk</a>
             </Link>
             <SelectWrapper>
               <select aria-label="language switcher">
@@ -85,7 +85,7 @@ const Footer = ({ row, col, colOne, colTwo }) => {
           <CopyrightText>
             <Text
               className="text"
-              content="© 2019 RedQ Inc. All Rights Reserved"
+              content="© 2023 Kestrel IT  All Rights Reserved"
             />
           </CopyrightText>
           <SocialList>

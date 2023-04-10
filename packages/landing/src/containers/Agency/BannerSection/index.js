@@ -37,19 +37,19 @@ const BannerSection = ({
         <Box className="row" {...row}>
           <Box className="col" {...col}>
             <DiscountLabel>
-              <Text content="25% Discount" {...discountAmount} />
-              <Text content="on every first project budget" {...discountText} />
+            <Text content="  Book a  " {...discountText} />
+              <Text content="FREE CONSULTATION  " {...discountAmount} />
             </DiscountLabel>
             <FeatureBlock
               title={
                 <Heading
-                  content="With Knowledge, Passion, Heart & Soul Agencies"
+                  content="Navigating technology, driving growth"
                   {...title}
                 />
               }
               description={
                 <Text
-                  content="Agencies around the world are moving to the digital agencies. So, It is high time to introduce your agency digitaly ."
+                  content="Providing IT support and consultancy services to small and medium businesses across the North West."
                   {...description}
                 />
               }
@@ -113,7 +113,7 @@ BannerSection.defaultProps = {
   },
   discountAmount: {
     fontSize: '14px',
-    color: '#10AC84',
+    color: '#FABA60',
     mb: 0,
     as: 'span',
     mr: '0.4em',

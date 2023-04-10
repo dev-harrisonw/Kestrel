@@ -19,7 +19,7 @@ const Copyright = () => {
           </li>
         ))}
       </ul>
-      <Text content="Copyrights 2019 @RedQ Inc" />
+      <Text content="Copyright © 2023 Kestrel IT" />
     </CopyrightWrapper>
   );
 };

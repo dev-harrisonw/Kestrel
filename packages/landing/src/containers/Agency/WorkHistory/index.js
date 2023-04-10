@@ -20,13 +20,13 @@ const WorkHistory = ({ row, col, cardStyle, title, description, btnStyle }) => {
             <FeatureBlock
               title={
                 <Heading
-                  content="Working With Knowledge, Passion, Heart & Soul "
+                  content="Delivering Quality Technology Solutions with Personalized Service"
                   {...title}
                 />
               }
               description={
                 <Text
-                  content="We have worked with some leading agencies around the globe and their appreciation is our main strength ."
+                  content="Our commitment to quality work and building strong relationships with our clients sets us apart in the industry."
                   {...description}
                 />
               }

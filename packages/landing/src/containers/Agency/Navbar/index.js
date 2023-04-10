@@ -89,10 +89,8 @@ const Navbar = ({ navbarStyle, logoStyle }) => {
   return (
     <NavbarWrapper {...navbarStyle}>
       <Container>
-        <Logo href="#" logoSrc={LogoImage} title="Agency" logoStyle={logoStyle} />
+        <Logo href="#" logoSrc={LogoImage} title="Kestrel IT" logoStyle={logoStyle} />
         <div style={{ display: 'flex', alignItems: 'center' }}>
-          <Button variant="textButton" onClick={handleSearchModal} icon={<i className="flaticon-magnifying-glass" />} aria-label="search" />
-          <Button variant="textButton" onClick={handleLoginModal} icon={<i className="flaticon-user" />} aria-label="login" />
           <Drawer
             width="420px"
             placement="right"
@@ -123,8 +121,8 @@ Navbar.defaultProps = {
   },
   // Default logo size
   logoStyle: {
-    width: '128px',
-    height: 'auto',
+    width: 'auto',
+    height: '70px',
   },
 };
 

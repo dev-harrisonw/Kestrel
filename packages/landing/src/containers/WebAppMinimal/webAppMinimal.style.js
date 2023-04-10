@@ -262,7 +262,7 @@ export const GlobalStyle = createGlobalStyle`
   button.modalCloseBtn {
     color: ${themeGet('colors.white', '#ffffff')} !important;
     &.alt {
-      background-color: ${themeGet('colors.primary', '#10ac84')} !important;
+      background-color: ${themeGet('colors.primary', '#FABA60')} !important;
       box-shadow: 0 8px 38px rgba(16, 172, 132, 0.5) !important;
     }
   }

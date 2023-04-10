@@ -33,7 +33,7 @@ const Footer = () => {
               </p>
               <Text
                 className="copyright"
-                content="Copyright by 2019 Redq, Inc"
+                content="Copyright by 2023 Redq, Inc"
               />
             </Fade>
           </CopyrightInfo>

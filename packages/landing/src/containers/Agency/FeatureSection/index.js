@@ -76,7 +76,7 @@ FeatureSection.defaultProps = {
     fontSize: '14px',
     letterSpacing: '0.15em',
     fontWeight: '700',
-    color: '#10ac84',
+    color: '#FABA60',
     mb: '10px',
   },
   // section title default style
