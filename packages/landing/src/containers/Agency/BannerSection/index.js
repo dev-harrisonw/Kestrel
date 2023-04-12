@@ -7,6 +7,7 @@ import Button from 'common/components/Button';
 import FeatureBlock from 'common/components/FeatureBlock';
 import Container from 'common/components/UI/Container';
 import Particles from '../../Agency/Particle';
+import Link from 'next/link';
 import BannerWrapper, { DiscountLabel } from './bannerSection.style';
 
 const BannerSection = ({
@@ -21,7 +22,9 @@ const BannerSection = ({
 }) => {
   const ButtonGroup = () => (
     <Fragment>
-      <Button title="LEARN MORE" {...btnStyle} />
+      <Link href="https://calendly.com/">
+      <Button title="ENQUIRE" {...btnStyle} />
+      </Link>
       <Button
         title="WATCH WORKS"
         variant="textButton"
@@ -37,8 +40,9 @@ const BannerSection = ({
         <Box className="row" {...row}>
           <Box className="col" {...col}>
             <DiscountLabel>
-            <Text content="  Book a  " {...discountText} />
-              <Text content="FREE CONSULTATION  " {...discountAmount} />
+            <Text content="  Book a   ‏ " {...discountText} />
+            <Text content="FREE CONSULTATION" {...discountAmount}/>
+              <Text content="today!" {...discountText} />
             </DiscountLabel>
             <FeatureBlock
               title={

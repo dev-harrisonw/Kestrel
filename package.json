@@ -31,6 +31,7 @@
     ]
   },
   "dependencies": {
-    "react-waypoint": "^10.1.0"
+    "react-waypoint": "^10.1.0",
+    "vercel": "^28.18.4"
   }
 }
