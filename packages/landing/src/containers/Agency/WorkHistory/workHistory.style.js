@@ -23,7 +23,7 @@ const WorkHistoryWrapper = styled.section`
     .reusecore__button {
       transition: all 0.3s ease;
       &:hover {
-        box-shadow: 0px 9px 20px -5px rgba(16, 172, 132, 0.57);
+        box-shadow: 0px 9px 20px -5px rgba(250, 186, 96, 0.57);
       }
     }
   }
