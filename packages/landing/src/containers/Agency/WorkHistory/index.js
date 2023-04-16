@@ -98,7 +98,7 @@ WorkHistory.defaultProps = {
   cardStyle: {
     p: ['20px 20px', '30px 20px', '30px 20px', '53px 40px'],
     borderRadius: '10px',
-    boxShadow: '0px 8px 20px 0px rgba(16, 66, 97, 0.07)',
+    boxShadow: '0px 8px 20px 0px rgba(250, 186, 96, 0.5)',
   },
   // WorkHistory section title default style
   title: {

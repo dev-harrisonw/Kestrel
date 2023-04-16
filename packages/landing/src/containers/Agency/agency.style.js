@@ -29,7 +29,7 @@ const GlobalStyle = createGlobalStyle`
         top: 20px;
         right: 30px;
         > button {
-          box-shadow: 0px 8px 38px 0px rgba(16, 172, 132, 0.5);
+          box-shadow: 0px 8px 38px 0px rgba(250, 186, 96, 0.5);
           transition: all 0.3s ease;
           svg {
             width: 22px;
@@ -100,7 +100,7 @@ const GlobalStyle = createGlobalStyle`
     color: ${themeGet('colors.white', '#ffffff')} !important;
     &.alt {
       background-color: ${themeGet('colors.primary', '#FABA60')} !important;
-      box-shadow: 0 8px 38px rgba(16, 172, 132, 0.5) !important;
+      box-shadow: 0 8px 38px rgba(250, 186, 96, 0.5) !important;
     }
   }
   .reuseModalHolder {
